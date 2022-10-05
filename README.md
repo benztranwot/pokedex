@@ -1,38 +1,30 @@
-# create-svelte
+# Benz Blog
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+[View Live Site](https://benz-pokedex.netlify.app/)
 
-## Creating a project
+A smple SvelteKit project lists all pokemon with PokeAPI.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- Prerender Home page and SSR Pokemon details page.
+- Search functionality with cool Svelte built-in animation.
+- Implement the new directory-based routing instead of file-based routing.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Preview
 
-## Developing
+<img src="./resources/pokedex.png" />
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Tech stack
 
-```bash
-npm run dev
+- [SvelteKit](https://kit.svelte.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [PokeAPI](https://pokeapi.co/)
+- [Vite](https://vitejs.dev/)
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Show your support
 
-## Building
+Give a ⭐️ if you like this project!
 
-To create a production version of your app:
+## License
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+[MIT](LICENSE)
